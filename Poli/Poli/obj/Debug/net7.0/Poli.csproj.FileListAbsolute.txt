@@ -1,0 +1,14 @@
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\bin\Debug\net7.0\Poli.exe
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\bin\Debug\net7.0\Poli.deps.json
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\bin\Debug\net7.0\Poli.runtimeconfig.json
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\bin\Debug\net7.0\Poli.dll
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\bin\Debug\net7.0\Poli.pdb
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\Poli.GeneratedMSBuildEditorConfig.editorconfig
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\Poli.AssemblyInfoInputs.cache
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\Poli.AssemblyInfo.cs
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\Poli.csproj.CoreCompileInputs.cache
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\Poli.dll
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\refint\Poli.dll
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\Poli.pdb
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\Poli.genruntimeconfig.cache
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Poli\Poli\obj\Debug\net7.0\ref\Poli.dll

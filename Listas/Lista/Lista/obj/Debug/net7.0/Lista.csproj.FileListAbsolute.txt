@@ -1,0 +1,14 @@
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\bin\Debug\net7.0\Lista.exe
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\bin\Debug\net7.0\Lista.deps.json
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\bin\Debug\net7.0\Lista.runtimeconfig.json
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\bin\Debug\net7.0\Lista.dll
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\bin\Debug\net7.0\Lista.pdb
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\Lista.GeneratedMSBuildEditorConfig.editorconfig
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\Lista.AssemblyInfoInputs.cache
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\Lista.AssemblyInfo.cs
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\Lista.csproj.CoreCompileInputs.cache
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\Lista.dll
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\refint\Lista.dll
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\Lista.pdb
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\Lista.genruntimeconfig.cache
+D:\Licenciatura ESI_PL\Programação Orientada a Objetos\Aulas\Listas\Lista\Lista\obj\Debug\net7.0\ref\Lista.dll
