@@ -1,0 +1,14 @@
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\bin\Debug\net7.0\ClassAbstrataMaisInterface.exe
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\bin\Debug\net7.0\ClassAbstrataMaisInterface.deps.json
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\bin\Debug\net7.0\ClassAbstrataMaisInterface.runtimeconfig.json
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\bin\Debug\net7.0\ClassAbstrataMaisInterface.dll
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\bin\Debug\net7.0\ClassAbstrataMaisInterface.pdb
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\ClassAbstrataMaisInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\ClassAbstrataMaisInterface.AssemblyInfoInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\ClassAbstrataMaisInterface.AssemblyInfo.cs
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\ClassAbstrataMaisInterface.csproj.CoreCompileInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\ClassAbstrataMaisInterface.dll
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\refint\ClassAbstrataMaisInterface.dll
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\ClassAbstrataMaisInterface.pdb
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\ClassAbstrataMaisInterface.genruntimeconfig.cache
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrataMaisInterface\ClassAbstrataMaisInterface\obj\Debug\net7.0\ref\ClassAbstrataMaisInterface.dll

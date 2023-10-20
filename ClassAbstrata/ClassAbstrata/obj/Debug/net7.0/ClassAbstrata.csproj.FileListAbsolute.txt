@@ -1,0 +1,14 @@
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\ClassAbstrata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\ClassAbstrata.AssemblyInfoInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\ClassAbstrata.AssemblyInfo.cs
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\ClassAbstrata.csproj.CoreCompileInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\bin\Debug\net7.0\ClassAbstrata.exe
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\bin\Debug\net7.0\ClassAbstrata.deps.json
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\bin\Debug\net7.0\ClassAbstrata.runtimeconfig.json
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\bin\Debug\net7.0\ClassAbstrata.dll
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\bin\Debug\net7.0\ClassAbstrata.pdb
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\ClassAbstrata.dll
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\refint\ClassAbstrata.dll
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\ClassAbstrata.pdb
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\ClassAbstrata.genruntimeconfig.cache
+C:\Users\rafac\Documents\GitHub\POO\ClassAbstrata\ClassAbstrata\obj\Debug\net7.0\ref\ClassAbstrata.dll
