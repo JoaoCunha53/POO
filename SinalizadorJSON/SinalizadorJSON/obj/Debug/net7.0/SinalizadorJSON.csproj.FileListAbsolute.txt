@@ -1,0 +1,14 @@
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\bin\Debug\net7.0\SinalizadorJSON.exe
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\bin\Debug\net7.0\SinalizadorJSON.deps.json
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\bin\Debug\net7.0\SinalizadorJSON.runtimeconfig.json
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\bin\Debug\net7.0\SinalizadorJSON.dll
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\bin\Debug\net7.0\SinalizadorJSON.pdb
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\SinalizadorJSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\SinalizadorJSON.AssemblyInfoInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\SinalizadorJSON.AssemblyInfo.cs
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\SinalizadorJSON.csproj.CoreCompileInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\SinalizadorJSON.dll
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\refint\SinalizadorJSON.dll
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\SinalizadorJSON.pdb
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\SinalizadorJSON.genruntimeconfig.cache
+C:\Users\rafac\Documents\GitHub\POO\SinalizadorJSON\SinalizadorJSON\obj\Debug\net7.0\ref\SinalizadorJSON.dll
