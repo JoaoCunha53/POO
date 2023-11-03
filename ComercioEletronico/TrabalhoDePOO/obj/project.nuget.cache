@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YUhJN81r6jBMdwrd/GYNeQ+4in5yt93tkGRCjqpm/bSn8a1ivXAzEtWlk2I+PpnyGx7ATEzCPrcLivm67spFmA==",
+  "dgSpecHash": "3pa5JTvQfMn4jlGw7IBe2hLb85SOFSqylIswhGWP979zMCDe4r7etYXQIr9WW8vW8W5z2e5vQlXr18h/YNE8Ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
+  "projectFilePath": "C:\\Users\\mwpt0343\\Documents\\GitHub\\POO1\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rafac\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+    "C:\\Users\\mwpt0343\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
   ],
   "logs": []
 }

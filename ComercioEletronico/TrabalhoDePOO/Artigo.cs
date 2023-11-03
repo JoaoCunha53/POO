@@ -35,7 +35,7 @@ namespace TrabalhoDePOO
         }
 
         ///<summary>
-        ///Metodos Class Artigo
+        ///Metodos Class Artigo XPTO
         /// </summary>
     }
 }
