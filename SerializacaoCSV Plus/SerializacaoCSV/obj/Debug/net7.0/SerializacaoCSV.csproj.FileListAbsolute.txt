@@ -1,0 +1,34 @@
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.exe
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.deps.json
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.runtimeconfig.json
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.pdb
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.csproj.AssemblyReference.cache
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.AssemblyInfoInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.AssemblyInfo.cs
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.csproj.CoreCompileInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.csproj.CopyComplete
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\refint\SerializacaoCSV.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.pdb
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.genruntimeconfig.cache
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV\SerializacaoCSV\obj\Debug\net7.0\ref\SerializacaoCSV.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.exe
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.deps.json
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.runtimeconfig.json
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\bin\Debug\net7.0\SerializacaoCSV.pdb
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.csproj.AssemblyReference.cache
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.AssemblyInfoInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.AssemblyInfo.cs
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.csproj.CoreCompileInputs.cache
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.csproj.CopyComplete
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\refint\SerializacaoCSV.dll
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.pdb
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\SerializacaoCSV.genruntimeconfig.cache
+C:\Users\rafac\Documents\GitHub\POO\SerializacaoCSV Plus\SerializacaoCSV\obj\Debug\net7.0\ref\SerializacaoCSV.dll

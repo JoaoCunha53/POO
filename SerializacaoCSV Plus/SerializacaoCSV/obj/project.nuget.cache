@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UPQLq6h8hTLuU0tEM3Tkb7uaJ9bUk2KZoy9uCxC9oBikVoc+cPVOLdiLOfGMTCpOsuMyeAhGLZ2Fo7LczQm92Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\SerializacaoCSV Plus\\SerializacaoCSV\\SerializacaoCSV.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafac\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

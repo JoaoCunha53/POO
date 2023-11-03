@@ -36,4 +36,6 @@ namespace SerializacaoCSV
             Console.ReadKey();
         }
     }
+
+
 }
