@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mwpt0343\\Documents\\GitHub\\POO1\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj": {}
+    "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mwpt0343\\Documents\\GitHub\\POO1\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj": {
+    "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mwpt0343\\Documents\\GitHub\\POO1\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
+        "projectUniqueName": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
         "projectName": "TrabalhoDePOO",
-        "projectPath": "C:\\Users\\mwpt0343\\Documents\\GitHub\\POO1\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
-        "packagesPath": "C:\\Users\\mwpt0343\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mwpt0343\\Documents\\GitHub\\POO1\\ComercioEletronico\\TrabalhoDePOO\\obj\\",
+        "projectPath": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
+        "packagesPath": "C:\\Users\\rafac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mwpt0343\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
