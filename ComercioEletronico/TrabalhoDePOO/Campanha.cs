@@ -38,9 +38,9 @@ namespace TrabalhoDePOO
         /// Metodos Class Marca
         /// </summary>
 
-        public List<Marca> CarregarDados(string FilePath)
+        public List<Campanha> CarregarDados(string FilePath)
         {
-            List<Marca> marcas = new List<Marca>();
+            List<Campanha> campanhas = new List<Campanha>();
             if (File.Exists(FilePath))
             {
 
@@ -50,12 +50,12 @@ namespace TrabalhoDePOO
                         new CsvConfiguration(CultureInfo.InvariantCulture)))
                     {
                         //var loadedRecords = csv.GetRecords<Person>().ToList();
-                        marcas = csv.GetRecords<Marca>().ToList();
+                        campanhas = csv.GetRecords<Campanha>().ToList();
 
                     }
                 }
             }
-            return marcas;
+            return campanhas;
 
         }
         public int GuardarDados(string FilePath, List<Campanha> campanha)
@@ -100,7 +100,7 @@ namespace TrabalhoDePOO
                 i++;
                 Console.WriteLine($"Id Campanha:{campanha.idCampanha}" +
                     $"\nNome: {campanha.nomeCamanha}" +
-                    $"\nDesconto:{campanha.dataInicio}" +
+                    $"\nDesconto:{campanha.desconto}" +
                     $"\nData do Inicio:{campanha.dataInicio}" +
                     $"\nData do Fim:{campanha.dataFim}");
             }

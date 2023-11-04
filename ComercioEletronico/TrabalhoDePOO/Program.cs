@@ -11,19 +11,27 @@ namespace TrabalhoDePOO
         static Marca marca = new Marca();
         static List<Modelo> modelos = new List<Modelo>();
         static Modelo modelo = new Modelo();
+        static List<Campanha> campanhas = new List<Campanha>();
+        static Campanha campanha = new Campanha();
+        static List<Categoria> categorias = new List<Categoria>();
+        static Categoria categoria = new Categoria();
 
         static void Main(string[] args)
         {
             marcas = marca.CarregarDados("marcas.csv");
             modelos = modelo.CarregarDados("modelo.csv");
+            campanhas = campanha.CarregarDados("campanhas.csv");
+            categorias = categoria.CarregarDados("categorias.csv");
 
             bool inOut = true;
             while (inOut)
             {
-
+                Console.Clear();
                 Console.WriteLine("--- Menu ---");
                 Console.WriteLine("\n1 - Gerir Marcas");
                 Console.WriteLine("2 - Gerir Modelos");
+                Console.WriteLine("3 - Gerir Campanhas");
+                Console.WriteLine("4 - Gerir Categorias");
                 Console.WriteLine("0 - Sair");
                 Console.Write("\n=> ");
 
@@ -41,12 +49,37 @@ namespace TrabalhoDePOO
                         Console.Clear();
                         MenuModelos();
                         break;
+                    case 3:
+                        Console.Clear();
+                        MenuCampanha();
+                        break;
+                    case 4:
+                        Console.Clear();
+                        MenuCategoria();
+                        break;
 
                 }
 
 
             }
 
+
+            if (marca.GuardarDados("marcas.csv", marcas) < 1)
+            {
+                Console.WriteLine("Ocorreu um erro ao gravar os dados das marcas.");
+            }
+            if (modelo.GuardarDados("modelo.csv", modelos) < 1)
+            {
+                Console.WriteLine("Ocorreu um erro ao gravar os dados dos modelos.");
+            }
+            if (campanha.GuardarDados("campanhas.csv", campanhas) < 1)
+            {
+                Console.WriteLine("Ocorreu um erro ao gravar os dados dos modelos.");
+            }
+            if (categoria.GuardarDados("categorias.csv", categorias) < 1)
+            {
+                Console.WriteLine("Ocorreu um erro ao gravar os dados dos modelos.");
+            }
             Console.ReadKey();
         }
 
@@ -129,14 +162,86 @@ namespace TrabalhoDePOO
                         break;
 
                 }
+            }
+        }
+        public static void MenuCampanha()
+        {
+            bool inOut = true;
+            Console.Clear();
+            while (inOut)
+            {
+                Console.WriteLine("--- Menu ---");
+                Console.WriteLine("\n1 - Listar Campanhas");
+                Console.WriteLine("2 - Adicionar Campanhas");
+                Console.WriteLine("3 - Editar Campanhas");
+                Console.WriteLine("4 - Remover Campanhas");
+                Console.WriteLine("0 - Sair");
+                Console.Write("\n=> ");
 
-                if (marca.GuardarDados("marcas.csv", marcas) < 1)
+                int opcao = int.Parse(Console.ReadLine());
+                switch (opcao)
                 {
-                    Console.WriteLine("Ocorreu um erro ao gravar os dados das marcas.");
+                    case 0:
+                        inOut = false;
+                        break;
+                    case 1:
+                        Console.Clear();
+                        campanha.Listar(campanhas);
+                        break;
+                    case 2:
+                        Console.Clear();
+                        campanha.Adicionar(campanhas);
+                        break;
+                    case 3:
+                        Console.Clear();
+                        campanha.Editar(campanhas);
+                        break;
+                    case 4:
+                        Console.Clear();
+                        campanha.Remover(campanhas);
+                        break;
+
                 }
-                if (modelo.GuardarDados("modelo.csv", modelos) < 1)
+
+            }
+        }
+        public static void MenuCategoria()
+        {
+            bool inOut = true;
+            Console.Clear();
+            while (inOut)
+            {
+                Console.WriteLine("--- Menu ---");
+                Console.WriteLine("\n1 - Listar Categoria");
+                Console.WriteLine("2 - Adicionar Categoria");
+                Console.WriteLine("3 - Editar Categoria");
+                Console.WriteLine("4 - Remover Categoria");
+                Console.WriteLine("0 - Sair");
+                Console.Write("\n=> ");
+
+                int opcao = int.Parse(Console.ReadLine());
+                switch (opcao)
                 {
-                    Console.WriteLine("Ocorreu um erro ao gravar os dados dos modelos.");
+                    case 0:
+                        inOut = false;
+                        break;
+                    case 1:
+                        Console.Clear();
+                        categoria.Listar(categorias);
+                        break;
+                    case 2:
+                        Console.Clear();
+                        categoria.Adicionar(categorias);
+                        break;
+                    case 3:
+                        Console.Clear();
+                        categoria.Editar(categorias);
+                        break;
+                    case 4:
+                        Console.Clear();
+                        categoria.Remover(categorias);
+                        break;
+
                 }
 
             }
