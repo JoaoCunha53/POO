@@ -6,32 +6,41 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Reflection;
 
 namespace TrabalhoDePOO
 {
-    internal class Garantia
+    internal class Pessoa
     {
+        ///<summary>
+        ///Atributos Class Clientes
+        ///</summary>
+        public int idPessoa { get; set; }
+        public string nomeCompleto { get; set; }
+        public DateTime dataNascimento { get; set; }
+        public decimal nif { get; set; }
+        public decimal nTelemovel { get; set; }
+        public string email { get; set; }
+        public string morada { get; set; }
 
-        /// <summary>
-        /// Atributos Class Garantia
+        ///<summary>
+        ///Construtor Class Cliente 
         /// </summary>
-        public int idGarantia { get; set; }
-        public string tipoGarantia { get; set; }
-        public int validade { get; set; }
+        /// 
 
-        /// <summary>
-        /// Cosntrutor Class Garantia
-        /// </summary>{
-        
-        public Garantia() { }
 
-        public Garantia(int idGarantia, string tipoGarantia, int validade)
+        public Pessoa() { }
+        public Pessoa(int idPessoa, string nomeCompleto, DateTime dataNascimento, decimal nif,
+            decimal nTelemovel, string email, string morada)
         {
-            this.idGarantia = idGarantia;
-            this.tipoGarantia = tipoGarantia;
-            this.validade = validade;
+            this.idPessoa = idPessoa;
+            this.nomeCompleto = nomeCompleto;
+            this.dataNascimento = dataNascimento;
+            this.nif = nif;
+            this.nTelemovel = nTelemovel;
+            this.email = email;
+            this.morada = morada;
         }
+
         public List<Garantia> CarregarDados(string FilePath)
         {
             List<Garantia> Garantias = new List<Garantia>();
@@ -134,13 +143,13 @@ namespace TrabalhoDePOO
             int id = int.Parse(Console.ReadLine());
             int index = Garantias.FindIndex(Garantia => Garantia.idGarantia.Equals(id));
 
-            Console.WriteLine( $"\nNome: {Garantias[index].tipoGarantia}" +
-                   $"\nValidade: {Garantias[index].validade}"+ " anos.");
+            Console.WriteLine($"\nNome: {Garantias[index].tipoGarantia}" +
+                   $"\nValidade: {Garantias[index].validade}" + " anos.");
 
             if (index >= 0)
             {
 
-               // Garantias[index].tipoGarantia = Console.ReadLine();
+                // Garantias[index].tipoGarantia = Console.ReadLine();
 
                 Console.Write("Tipo Existentes de Garantia: ");
                 Console.Write("\n1 - Garantia Legal ");
@@ -180,9 +189,9 @@ namespace TrabalhoDePOO
                 }
 
 
-                    Console.Write("Nova Validade: ");
+                Console.Write("Nova Validade: ");
                 Garantias[index].validade = int.Parse(Console.ReadLine());
-          
+
             }
             else
             {
@@ -210,5 +219,10 @@ namespace TrabalhoDePOO
         }
 
 
+
+
+
+
     }
-}
+
+    }
