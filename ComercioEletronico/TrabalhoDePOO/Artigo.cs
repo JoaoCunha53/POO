@@ -14,17 +14,14 @@ namespace TrabalhoDePOO
         /// </summary>
         public int idArtigo { get; set; }
         public Modelo modelo { get; set; }
+        public int stock { get; set; }
         public Categoria categoria { get; set; }
         public Garantia garantia { get; set; }
         public double preco { get; set; }
-
-
         /// <summary>
         /// Construtores Class Artigo
         /// </summary>
-
         public Artigo() { }
-
         public Artigo(int idArtigo, Modelo modelo, Categoria categoria, Garantia garantia, double preco) 
         {
             this.idArtigo = idArtigo;
