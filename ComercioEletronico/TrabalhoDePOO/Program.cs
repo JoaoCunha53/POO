@@ -15,6 +15,11 @@ namespace TrabalhoDePOO
         static Campanha campanha = new Campanha();
         static List<Categoria> categorias = new List<Categoria>();
         static Categoria categoria = new Categoria();
+        static List<Artigo> artigos = new List<Artigo>();
+        static Artigo artigo = new Artigo();
+        static List<Garantia> garantias = new List<Garantia>();
+        static Garantia garantia = new Garantia();
+
 
         static void Main(string[] args)
         {
@@ -22,6 +27,7 @@ namespace TrabalhoDePOO
             modelos = modelo.CarregarDados("modelo.csv");
             campanhas = campanha.CarregarDados("campanhas.csv");
             categorias = categoria.CarregarDados("categorias.csv");
+            artigos = artigo.CarregarDados("artigos.csv");
 
             bool inOut = true;
             while (inOut)
@@ -32,6 +38,7 @@ namespace TrabalhoDePOO
                 Console.WriteLine("2 - Gerir Modelos");
                 Console.WriteLine("3 - Gerir Campanhas");
                 Console.WriteLine("4 - Gerir Categorias");
+                Console.WriteLine("5 - Gerir Artigos");
                 Console.WriteLine("0 - Sair");
                 Console.Write("\n=> ");
 
@@ -57,6 +64,10 @@ namespace TrabalhoDePOO
                         Console.Clear();
                         MenuCategoria();
                         break;
+                    case 5:
+                        Console.Clear();
+                        MenuArtigo();
+                        break;
 
                 }
 
@@ -74,11 +85,15 @@ namespace TrabalhoDePOO
             }
             if (campanha.GuardarDados("campanhas.csv", campanhas) < 1)
             {
-                Console.WriteLine("Ocorreu um erro ao gravar os dados dos modelos.");
+                Console.WriteLine("Ocorreu um erro ao gravar os dados dos campanhas.");
             }
             if (categoria.GuardarDados("categorias.csv", categorias) < 1)
             {
-                Console.WriteLine("Ocorreu um erro ao gravar os dados dos modelos.");
+                Console.WriteLine("Ocorreu um erro ao gravar os dados dos categorias.");
+            }
+            if (categoria.GuardarDados("artigos.csv", categorias) < 1)
+            {
+                Console.WriteLine("Ocorreu um erro ao gravar os dados dos artigo.");
             }
             Console.ReadKey();
         }
@@ -240,6 +255,47 @@ namespace TrabalhoDePOO
                     case 4:
                         Console.Clear();
                         categoria.Remover(categorias);
+                        break;
+
+                }
+
+            }
+        }
+        public static void MenuArtigo()
+        {
+            bool inOut = true;
+            Console.Clear();
+            while (inOut)
+            {
+                Console.WriteLine("--- Menu ---");
+                Console.WriteLine("\n1 - Listar Artigos");
+                Console.WriteLine("2 - Adicionar Artigos");
+                Console.WriteLine("3 - Editar Artigos");
+                Console.WriteLine("4 - Remover Artigos");
+                Console.WriteLine("0 - Sair");
+                Console.Write("\n=> ");
+
+                int opcao = int.Parse(Console.ReadLine());
+                switch (opcao)
+                {
+                    case 0:
+                        inOut = false;
+                        break;
+                    case 1:
+                        Console.Clear();
+                        artigo.Listar(artigos);
+                        break;
+                    case 2:
+                        Console.Clear();
+                        artigo.Adicionar(artigos,modelos,categorias,garantias);
+                        break;
+                    case 3:
+                        Console.Clear();
+                        artigo.Editar(artigos, modelos, categorias, garantias);
+                        break;
+                    case 4:
+                        Console.Clear();
+                        artigo.Remover(artigos);
                         break;
 
                 }

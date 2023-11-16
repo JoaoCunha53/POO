@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tIoFyHd10WsogmvXLjE3Nf9EEpP7A91gCV+GDL/HkvJ9X7y3EzrQkyQSp2qCG2mBkThWezdMiQ9CJR4gTo1DBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\MicrosoftIdentityClient\\MicrosoftIdentityClient\\MicrosoftIdentityClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafac\\.nuget\\packages\\microsoft.identity.client\\4.57.0\\microsoft.identity.client.4.57.0.nupkg.sha512",
+    "C:\\Users\\rafac\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512"
+  ],
+  "logs": []
+}
