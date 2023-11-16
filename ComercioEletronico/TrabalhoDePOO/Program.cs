@@ -19,16 +19,16 @@ namespace TrabalhoDePOO
         static Artigo artigo = new Artigo();
         static List<Garantia> garantias = new List<Garantia>();
         static Garantia garantia = new Garantia();
-
+        
 
         static void Main(string[] args)
         {
             marcas = marca.CarregarDados("marcas.csv");
             modelos = modelo.CarregarDados("modelo.csv");
+            garantias = garantia.CarregarDados("garantia.csv");
             campanhas = campanha.CarregarDados("campanhas.csv");
             categorias = categoria.CarregarDados("categorias.csv");
             artigos = artigo.CarregarDados("artigos.csv");
-
             bool inOut = true;
             while (inOut)
             {
@@ -36,9 +36,10 @@ namespace TrabalhoDePOO
                 Console.WriteLine("--- Menu ---");
                 Console.WriteLine("\n1 - Gerir Marcas");
                 Console.WriteLine("2 - Gerir Modelos");
-                Console.WriteLine("3 - Gerir Campanhas");
-                Console.WriteLine("4 - Gerir Categorias");
-                Console.WriteLine("5 - Gerir Artigos");
+                Console.WriteLine("3 - Gerir Garantias");
+                Console.WriteLine("4 - Gerir Campanhas");
+                Console.WriteLine("5 - Gerir Categorias");
+                Console.WriteLine("6 - Gerir Artigos");
                 Console.WriteLine("0 - Sair");
                 Console.Write("\n=> ");
 
@@ -58,13 +59,17 @@ namespace TrabalhoDePOO
                         break;
                     case 3:
                         Console.Clear();
-                        MenuCampanha();
+                        MenuGarantias();
                         break;
                     case 4:
                         Console.Clear();
-                        MenuCategoria();
+                        MenuCampanha();
                         break;
                     case 5:
+                        Console.Clear();
+                        MenuCategoria();
+                        break;
+                    case 6:
                         Console.Clear();
                         MenuArtigo();
                         break;
@@ -192,7 +197,45 @@ namespace TrabalhoDePOO
                 Console.WriteLine("4 - Remover Campanhas");
                 Console.WriteLine("0 - Sair");
                 Console.Write("\n=> ");
+            }
+                int opcao = int.Parse(Console.ReadLine());
+            switch (opcao)
+            {
+                case 0:
+                    inOut = false;
+                    break;
+                case 1:
+                    Console.Clear();
+                    campanha.Listar(campanhas);
+                    break;
+                case 2:
+                    Console.Clear();
+                    campanha.Adicionar(campanhas);
+                    break;
+                case 3:
+                    Console.Clear();
+                    campanha.Editar(campanhas);
+                    break;
+                case 4:
+                    Console.Clear();
+                    campanha.Remover(campanhas);
+                    break;
 
+            }
+        }
+        public static void MenuGarantias()
+        {
+            Console.Clear();
+            bool inOut = true;
+            while (inOut)
+            {
+                Console.WriteLine("--- Menu ---");
+                Console.WriteLine("\n1 - Listar Garantias");
+                Console.WriteLine("2 - Adicionar Garantia");
+                Console.WriteLine("3 - Editar Garantia");
+                Console.WriteLine("4 - Remover Garantia");
+                Console.WriteLine("0 - Sair");
+                Console.Write("\n=> ");
                 int opcao = int.Parse(Console.ReadLine());
                 switch (opcao)
                 {
@@ -201,19 +244,19 @@ namespace TrabalhoDePOO
                         break;
                     case 1:
                         Console.Clear();
-                        campanha.Listar(campanhas);
+                        garantia.ListarGarantia(garantias);
                         break;
                     case 2:
                         Console.Clear();
-                        campanha.Adicionar(campanhas);
+                        garantia.AdicionarGarantia(garantias);
                         break;
                     case 3:
                         Console.Clear();
-                        campanha.Editar(campanhas);
+                        garantia.EditarGarantia(garantias);
                         break;
                     case 4:
                         Console.Clear();
-                        campanha.Remover(campanhas);
+                        garantia.RemoverGarantia(garantias);
                         break;
 
                 }
@@ -257,6 +300,10 @@ namespace TrabalhoDePOO
                         categoria.Remover(categorias);
                         break;
 
+                }
+                if (garantia.GuardarDados("garantia.csv", garantias) < 1)
+                {
+                    Console.WriteLine("Ocorreu um erro ao gravar os dados das garantias.");
                 }
 
             }
