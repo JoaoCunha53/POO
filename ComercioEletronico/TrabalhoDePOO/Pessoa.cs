@@ -17,10 +17,9 @@ namespace TrabalhoDePOO
         ///<summary>
         ///Atributos Class Clientes
         ///</summary>
-        public int idCliente {  get; set; }
         public int idPessoa { get; set; }
         public string nomeCompleto { get; set; }
-        public DateTime dataNascimento { get; set; }
+        public DateOnly dataNascimento { get; set; }
         public decimal nif { get; set; }
         public decimal nTelemovel { get; set; }
         public string email { get; set;}
@@ -35,8 +34,8 @@ namespace TrabalhoDePOO
         /// 
 
         public Pessoa() { }
-        public Pessoa(int idPessoa, string nomeCompleto, DateTime dataNascimento, decimal nif,
-            decimal nTelemovel, string morada)
+        public Pessoa(int idPessoa, string nomeCompleto, DateOnly dataNascimento, decimal nif,
+            decimal nTelemovel, string morada, string email, string chave,int funcao)
         {
             this.idPessoa = idPessoa;
             this.nomeCompleto = nomeCompleto;
@@ -44,15 +43,10 @@ namespace TrabalhoDePOO
             this.nif = nif;
             this.nTelemovel = nTelemovel;
             this.morada = morada;
-        }
-
-        public Pessoa(string email, string chave)
-        {
             this.email = email;
             this.chave = chave;
+            this.funcao = funcao;
         }
-
-
 
     }
 

@@ -2,6 +2,7 @@
 using System.Globalization;
 using System;
 using CsvHelper;
+using System.Numerics;
 
 namespace TrabalhoDePOO
 {
@@ -19,9 +20,9 @@ namespace TrabalhoDePOO
         static Artigo artigo = new Artigo();
         static List<Garantia> garantias = new List<Garantia>();
         static Garantia garantia = new Garantia();
-        static List<Pessoa> pessoas = new List<Pessoa>();
-        static Pessoa pessoa = new Pessoa();
-        
+        static List<Pessoa> clientes = new List<Pessoa>();
+        static Cliente cliente = new Cliente();
+        static int id;
 
         static void Main(string[] args)
         {
@@ -31,16 +32,17 @@ namespace TrabalhoDePOO
             campanhas = campanha.CarregarDados("campanhas.csv");
             categorias = categoria.CarregarDados("categorias.csv");
             artigos = artigo.CarregarDados("artigos.csv");
-
+            clientes = cliente.CarregarDados("clientes.cvs");
 
             bool inOut = true;
             Console.WriteLine("Comercio Online");
-            Console.WriteLine("1 - Login");
-            Console.WriteLine("2 - Resgisto");
-            Console.WriteLine("0 - Sair");
-            int opcaoInico = int.Parse(Console.ReadLine());
+            
             while (inOut)
             {
+                Console.WriteLine("1 - Login");
+                Console.WriteLine("2 - Resgisto");
+                Console.WriteLine("0 - Sair");
+                int opcaoInico = int.Parse(Console.ReadLine());
                 switch (opcaoInico)
                 {
                     case 0:
@@ -52,8 +54,7 @@ namespace TrabalhoDePOO
                         Login();
                         break;
                     case 2:
-                        inOut = false;
-                        
+                        Registar();
                         break;
                     default:
                         Console.WriteLine("Selecionar o valor correto.");
@@ -84,6 +85,10 @@ namespace TrabalhoDePOO
             if (artigo.GuardarDados("artigos.csv", artigos) < 1)
             {
                 Console.WriteLine("Ocorreu um erro ao gravar os dados dos artigo.");
+            }
+            if (cliente.GuardarDados("clientes.csv", clientes) < 1)
+            {
+                Console.WriteLine("Ocorreu um erro ao gravar os dados dos clientes.");
             }
             Console.ReadKey();
         }
@@ -386,17 +391,19 @@ namespace TrabalhoDePOO
 
             }
         }
-        public static void MenuCilente()
+        public static void MenuCliente()
         {
             bool inOut = true;
+            Console.Clear();
+            Console.WriteLine("--- Menu ---");
+            Console.WriteLine("1 - Listar Artigos");
+            Console.WriteLine("2 - Encomendas");
+            Console.WriteLine("3 - Editar Perfil");
+            Console.WriteLine("0 - Sair");
             while (inOut)
             {
-                Console.Clear();
-                Console.WriteLine("--- Menu ---");
-                Console.WriteLine("1 - Listar Artigos");
-                Console.WriteLine("2 - Encomendas");
-
-                Console.WriteLine("0 - Sair");
+                
+                
                 Console.Write("\n=> ");
 
                 int opcao = int.Parse(Console.ReadLine());
@@ -406,34 +413,33 @@ namespace TrabalhoDePOO
                         inOut = false;
                         break;
                     case 1:
-                        Console.Clear();
                         artigo.Listar(artigos);
                         break;
                     case 2:
-                        Console.Clear();
-                        
-                        break;
-                    
 
+                        break;
+                    case 3:
+                        cliente.Editar(clientes,id);
+                        break;
                 }
 
 
             }
         }
-
         public static void Login()
         {
             Console.Write("Email: ");
             string email = Console.ReadLine();
             Console.Write("Palavra-Pass: ");
             string pass = Console.ReadLine();
-            int index = pessoas.FindIndex(pessoa => pessoa.email.Equals(email) && pessoa.chave.Equals(pass));
-           if ( index != null ) 
+            int index = clientes.FindIndex(pessoa => pessoa.email.Equals(email) && pessoa.chave.Equals(pass));
+            if (index != null ) 
             {
-                switch(pessoas[index].funcao)
+                id = index;
+                switch (clientes[index].funcao)
                 {
                     case 1:
-                        MenuCliente(),
+                        MenuCliente();
                         break;
                     case 2:
                         MenuGestor();
@@ -443,6 +449,23 @@ namespace TrabalhoDePOO
            else
             {
                 Console.WriteLine("");
+            }
+
+        }
+        public static void Registar()
+        {
+            Console.Write("Email: ");
+            string email = Console.ReadLine();
+            Console.Write("Palavra-Pass: ");
+            string pass = Console.ReadLine();
+            bool ver = clientes.Exists(pessoa => pessoa.email.Equals(email));
+            if (ver == false)
+            {
+                cliente.Adicionar(clientes, email, pass);
+            }
+            else
+            {
+                Console.WriteLine("Está conta ja foi registada");
             }
 
         }
