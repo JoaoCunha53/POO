@@ -24,7 +24,10 @@ namespace TrabalhoDePOO
         public decimal nif { get; set; }
         public decimal nTelemovel { get; set; }
         public string email { get; set;}
+        public string chave { get; set; }
         public string morada { get; set;}
+
+        public int funcao { get; set; }
 
         ///<summary>
         ///Construtor Class Cliente 
@@ -33,16 +36,24 @@ namespace TrabalhoDePOO
 
         public Pessoa() { }
         public Pessoa(int idPessoa, string nomeCompleto, DateTime dataNascimento, decimal nif,
-            decimal nTelemovel, string email, string morada)
+            decimal nTelemovel, string morada)
         {
             this.idPessoa = idPessoa;
             this.nomeCompleto = nomeCompleto;
             this.dataNascimento = dataNascimento;
             this.nif = nif;
             this.nTelemovel = nTelemovel;
-            this.email = email;
             this.morada = morada;
         }
 
+        public Pessoa(string email, string chave)
+        {
+            this.email = email;
+            this.chave = chave;
+        }
+
+
+
     }
+
 }

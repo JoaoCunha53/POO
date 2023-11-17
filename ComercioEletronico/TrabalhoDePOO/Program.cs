@@ -19,6 +19,8 @@ namespace TrabalhoDePOO
         static Artigo artigo = new Artigo();
         static List<Garantia> garantias = new List<Garantia>();
         static Garantia garantia = new Garantia();
+        static List<Pessoa> pessoas = new List<Pessoa>();
+        static Pessoa pessoa = new Pessoa();
         
 
         static void Main(string[] args)
@@ -29,56 +31,35 @@ namespace TrabalhoDePOO
             campanhas = campanha.CarregarDados("campanhas.csv");
             categorias = categoria.CarregarDados("categorias.csv");
             artigos = artigo.CarregarDados("artigos.csv");
+
+
             bool inOut = true;
+            Console.WriteLine("Comercio Online");
+            Console.WriteLine("1 - Login");
+            Console.WriteLine("2 - Resgisto");
+            Console.WriteLine("0 - Sair");
+            int opcaoInico = int.Parse(Console.ReadLine());
             while (inOut)
             {
-                Console.Clear();
-                Console.WriteLine("--- Menu ---");
-                Console.WriteLine("\n1 - Gerir Marcas");
-                Console.WriteLine("2 - Gerir Modelos");
-                Console.WriteLine("3 - Gerir Garantias");
-                Console.WriteLine("4 - Gerir Campanhas");
-                Console.WriteLine("5 - Gerir Categorias");
-                Console.WriteLine("6 - Gerir Artigos");
-                Console.WriteLine("0 - Sair");
-                Console.Write("\n=> ");
-
-                int opcao = int.Parse(Console.ReadLine());
-                switch (opcao)
+                switch (opcaoInico)
                 {
                     case 0:
                         inOut = false;
+                        Console.WriteLine("Volte Sempre");
                         break;
                     case 1:
-                        Console.Clear();
-                        MenuMarcas();
+                        inOut = false;
+                        Login();
                         break;
                     case 2:
-                        Console.Clear();
-                        MenuModelos();
+                        inOut = false;
+                        
                         break;
-                    case 3:
-                        Console.Clear();
-                        MenuGarantias();
+                    default:
+                        Console.WriteLine("Selecionar o valor correto.");
                         break;
-                    case 4:
-                        Console.Clear();
-                        MenuCampanha();
-                        break;
-                    case 5:
-                        Console.Clear();
-                        MenuCategoria();
-                        break;
-                    case 6:
-                        Console.Clear();
-                        MenuArtigo();
-                        break;
-
                 }
-
-
-            }
-
+            }            
 
             if (marca.GuardarDados("marcas.csv", marcas) < 1)
             {
@@ -88,6 +69,10 @@ namespace TrabalhoDePOO
             {
                 Console.WriteLine("Ocorreu um erro ao gravar os dados dos modelos.");
             }
+            if (garantia.GuardarDados("garantia.csv", garantias) < 1)
+            {
+                Console.WriteLine("Ocorreu um erro ao gravar os dados dos campanhas.");
+            }
             if (campanha.GuardarDados("campanhas.csv", campanhas) < 1)
             {
                 Console.WriteLine("Ocorreu um erro ao gravar os dados dos campanhas.");
@@ -96,7 +81,7 @@ namespace TrabalhoDePOO
             {
                 Console.WriteLine("Ocorreu um erro ao gravar os dados dos categorias.");
             }
-            if (categoria.GuardarDados("artigos.csv", categorias) < 1)
+            if (artigo.GuardarDados("artigos.csv", artigos) < 1)
             {
                 Console.WriteLine("Ocorreu um erro ao gravar os dados dos artigo.");
             }
@@ -197,30 +182,30 @@ namespace TrabalhoDePOO
                 Console.WriteLine("4 - Remover Campanhas");
                 Console.WriteLine("0 - Sair");
                 Console.Write("\n=> ");
-            }
                 int opcao = int.Parse(Console.ReadLine());
-            switch (opcao)
-            {
-                case 0:
-                    inOut = false;
-                    break;
-                case 1:
-                    Console.Clear();
-                    campanha.Listar(campanhas);
-                    break;
-                case 2:
-                    Console.Clear();
-                    campanha.Adicionar(campanhas);
-                    break;
-                case 3:
-                    Console.Clear();
-                    campanha.Editar(campanhas);
-                    break;
-                case 4:
-                    Console.Clear();
-                    campanha.Remover(campanhas);
-                    break;
 
+                switch (opcao)
+                {
+                    case 0:
+                        inOut = false;
+                        break;
+                    case 1:
+                        Console.Clear();
+                        campanha.Listar(campanhas);
+                        break;
+                    case 2:
+                        Console.Clear();
+                        campanha.Adicionar(campanhas);
+                        break;
+                    case 3:
+                        Console.Clear();
+                        campanha.Editar(campanhas);
+                        break;
+                    case 4:
+                        Console.Clear();
+                        campanha.Remover(campanhas);
+                        break;
+                }
             }
         }
         public static void MenuGarantias()
@@ -349,5 +334,118 @@ namespace TrabalhoDePOO
 
             }
         }
+        public static void MenuGestor() 
+        {
+            bool inOut = true;
+            while (inOut)
+            {
+                Console.Clear();
+                Console.WriteLine("--- Menu ---");
+                Console.WriteLine("\n1 - Gerir Marcas");
+                Console.WriteLine("2 - Gerir Modelos");
+                Console.WriteLine("3 - Gerir Garantias");
+                Console.WriteLine("4 - Gerir Campanhas");
+                Console.WriteLine("5 - Gerir Categorias");
+                Console.WriteLine("6 - Gerir Artigos");
+                Console.WriteLine("0 - Sair");
+                Console.Write("\n=> ");
+
+                int opcao = int.Parse(Console.ReadLine());
+                switch (opcao)
+                {
+                    case 0:
+                        inOut = false;
+                        break;
+                    case 1:
+                        Console.Clear();
+                        MenuMarcas();
+                        break;
+                    case 2:
+                        Console.Clear();
+                        MenuModelos();
+                        break;
+                    case 3:
+                        Console.Clear();
+                        MenuGarantias();
+                        break;
+                    case 4:
+                        Console.Clear();
+                        MenuCampanha();
+                        break;
+                    case 5:
+                        Console.Clear();
+                        MenuCategoria();
+                        break;
+                    case 6:
+                        Console.Clear();
+                        MenuArtigo();
+                        break;
+
+                }
+
+
+            }
+        }
+        public static void MenuCilente()
+        {
+            bool inOut = true;
+            while (inOut)
+            {
+                Console.Clear();
+                Console.WriteLine("--- Menu ---");
+                Console.WriteLine("1 - Listar Artigos");
+                Console.WriteLine("2 - Encomendas");
+
+                Console.WriteLine("0 - Sair");
+                Console.Write("\n=> ");
+
+                int opcao = int.Parse(Console.ReadLine());
+                switch (opcao)
+                {
+                    case 0:
+                        inOut = false;
+                        break;
+                    case 1:
+                        Console.Clear();
+                        artigo.Listar(artigos);
+                        break;
+                    case 2:
+                        Console.Clear();
+                        
+                        break;
+                    
+
+                }
+
+
+            }
+        }
+
+        public static void Login()
+        {
+            Console.Write("Email: ");
+            string email = Console.ReadLine();
+            Console.Write("Palavra-Pass: ");
+            string pass = Console.ReadLine();
+            int index = pessoas.FindIndex(pessoa => pessoa.email.Equals(email) && pessoa.chave.Equals(pass));
+           if ( index != null ) 
+            {
+                switch(pessoas[index].funcao)
+                {
+                    case 1:
+                        MenuCliente(),
+                        break;
+                    case 2:
+                        MenuGestor();
+                        break;
+                }
+            }
+           else
+            {
+                Console.WriteLine("");
+            }
+
+        }
+
     }
 }

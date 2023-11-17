@@ -10,7 +10,7 @@ using System.Reflection;
 
 namespace TrabalhoDePOO
 {
-    internal class Garantia
+    internal class Garantia 
     {
 
         /// <summary>
@@ -32,6 +32,9 @@ namespace TrabalhoDePOO
             this.tipoGarantia = tipoGarantia;
             this.validade = validade;
         }
+        /// <summary>
+        /// Metodos Class Garantia
+        /// </summary>
         public List<Garantia> CarregarDados(string FilePath)
         {
             List<Garantia> Garantias = new List<Garantia>();

@@ -13,7 +13,7 @@ namespace TrabalhoDePOO
         /// Atributos Class Venda
         /// </sumary>
         public int idVenda { get; set; }
-        public Cliente cliente { get; set; }
+        public Pessoa cliente { get; set; }
         public Artigo artigo { get; set; }
 
     }

@@ -113,7 +113,7 @@ namespace TrabalhoDePOO
             int id = int.Parse(Console.ReadLine());
             int index = campanhas.FindIndex(campanha => campanha.idCampanha.Equals(id));
             Console.WriteLine($"\n1 - Nome: {campanhas[index].nomeCamanha}" +
-                 $"\n2 - Desconto:{campanhas[index].dataInicio}" +
+                 $"\n2 - Desconto:{campanhas[index].desconto}" +
                  $"\n3 - Data do Inicio:{campanhas[index].dataInicio}" +
                  $"\n4 - Data do Fim:{campanhas[index].dataFim}" +
                  $"\n0 - Sair");
@@ -130,18 +130,22 @@ namespace TrabalhoDePOO
                         inOut = false;
                         break;
                     case 1:
+                        inOut = false;
                         Console.Write("\nNome:");
                         campanhas[index].nomeCamanha = Console.ReadLine();
                         break;
                     case 2:
+                        inOut = false;
                         Console.Write("\nDesconto:");
                         campanhas[index].desconto = double.Parse(Console.ReadLine());
                         break;
                     case 3:
+                        inOut = false;
                         Console.Write("\nDataInicio:");
                         campanhas[index].dataInicio = DateTime.Parse(Console.ReadLine());
                         break;
                     case 4:
+                        inOut = false;
                         Console.Write("\nData do Fim:");
                         campanhas[index].dataInicio = DateTime.Parse(Console.ReadLine());
                         break;

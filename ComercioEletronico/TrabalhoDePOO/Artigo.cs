@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace TrabalhoDePOO
 {
-    internal class Artigo
+    internal class Artigo 
     {
         /// <summary>
         /// Atributos Class Artigo
@@ -103,17 +103,17 @@ namespace TrabalhoDePOO
         }
         public void Listar(List<Artigo> artigos)
         {
-            Console.WriteLine("\nLista de Campanhas:");
+            Console.WriteLine("\nLista de Artigo:");
             int i = -1;
             foreach (Artigo artigo in artigos)
             {
                 i++;
                 Console.WriteLine($"Id Artigo:{artigo.idArtigo}" +
-                    $"\nNome: {artigo.modelo.nameModelo}" +
-                    $"\nMarca: {artigo.modelo.marca}" +
+                    $"\nModelo: {artigo.modelo.nameModelo}" +
+                    $"\nMarca: {artigo.modelo.marca.nomeMarca}" +
                     $"\nDescrição:{artigo.modelo.descricao}" +
                     $"\nCategoria:{artigo.categoria.descr}" +
-                    $"\nGarantia:{artigo.garantia.desc}" +
+                    $"\nGarantia:{artigo.garantia.tipoGarantia} Validade: {artigo.garantia.validade}" +
                     $"\nStock:{artigo.stock}" +
                     $"\nPreço Unidade:{artigo.precoUni}");
 
@@ -127,11 +127,11 @@ namespace TrabalhoDePOO
             int id = int.Parse(Console.ReadLine());
             int index = artigos.FindIndex(artigo => artigo.idArtigo.Equals(id));
             Console.WriteLine($"\n1 - Id Modelo" +
-                   $"\n         Nome: {artigos[index].modelo.nameModelo}" +
-                   $"\n         Marca: {artigos[index].modelo.marca}" +
-                   $"\n         Descrição:{artigos[index].modelo.descricao}" +
+                   $"\nModelo: {artigos[index].modelo.nameModelo}" +
+                   $"\n     Marca: {artigos[index].modelo.marca.nomeMarca}" +
+                   $"\n     Descrição:{artigos[index].modelo.descricao}" +
                    $"\n2 - Categoria:{artigos[index].categoria.descr}" +
-                   $"\n3 - Garantia:{artigos[index].garantia.desc}" +
+                   $"\n3 - Garantia:{artigos[index].garantia.tipoGarantia}" +
                    $"\n4 - Stock:{artigos[index].stock}" +
                    $"\n5 - Preço Unidade:{artigos[index].precoUni}");
 
@@ -176,19 +176,19 @@ namespace TrabalhoDePOO
         }
         public void Remover(List<Artigo> artigos)
         {
-            Console.WriteLine("\nRemover Campanha:");
-            Console.Write("Id da Campanha a ser excluída: ");
+            Console.WriteLine("\nRemover Artigo:");
+            Console.Write("Id da Artigo a ser excluída: ");
             int id = int.Parse(Console.ReadLine());
             int index = artigos.FindIndex(artigo => artigo.idArtigo.Equals(id));
 
             if (index >= 0)
             {
                 artigos.RemoveAt(index);
-                Console.WriteLine("Campanha excluída com sucesso.");
+                Console.WriteLine("Artigo excluída com sucesso.");
             }
             else
             {
-                Console.WriteLine("Índice inválido. Nenhuma Campanha excluída.");
+                Console.WriteLine("Índice inválido. Nenhuma Artigo excluída.");
             }
             Console.WriteLine("\n");
         }
