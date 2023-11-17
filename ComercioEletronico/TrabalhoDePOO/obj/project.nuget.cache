@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YUhJN81r6jBMdwrd/GYNeQ+4in5yt93tkGRCjqpm/bSn8a1ivXAzEtWlk2I+PpnyGx7ATEzCPrcLivm67spFmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafac\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
