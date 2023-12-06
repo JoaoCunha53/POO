@@ -51,6 +51,10 @@ namespace Espetaculos
             Console.WriteLine("Quantos lugares Disponiveis: {0}", esp.lugaresDisponiveis);
         }
 
+        
+
+
+
 
 
 

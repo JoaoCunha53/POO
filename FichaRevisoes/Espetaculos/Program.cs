@@ -10,8 +10,9 @@
 
             while (inOut) 
             {
-                Console.WriteLine("1 - Registar Espetaculos");
-                Console.WriteLine("2 - Consultar Espetaculos");
+                Console.WriteLine("1 - Registar Espetáculos");
+                Console.WriteLine("2 - Consultar Espetáculos");
+                Console.WriteLine("3 - Adquirir Espetáculo");
                 Console.WriteLine("0 - Sair");
                 int op = int.Parse(Console.ReadLine());
 
@@ -28,6 +29,9 @@
                         {
                             espetaculo.ListarEspetaculo(esp);
                         }
+                        break;
+                    case 3:
+
                         break;
                 }
             }

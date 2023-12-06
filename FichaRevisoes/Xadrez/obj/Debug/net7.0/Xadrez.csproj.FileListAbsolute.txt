@@ -1,0 +1,14 @@
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\Xadrez.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\Xadrez.AssemblyInfoInputs.cache
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\Xadrez.AssemblyInfo.cs
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\Xadrez.csproj.CoreCompileInputs.cache
+D:\GitHub\FichaRevisoes\Xadrez\bin\Debug\net7.0\Xadrez.exe
+D:\GitHub\FichaRevisoes\Xadrez\bin\Debug\net7.0\Xadrez.deps.json
+D:\GitHub\FichaRevisoes\Xadrez\bin\Debug\net7.0\Xadrez.runtimeconfig.json
+D:\GitHub\FichaRevisoes\Xadrez\bin\Debug\net7.0\Xadrez.dll
+D:\GitHub\FichaRevisoes\Xadrez\bin\Debug\net7.0\Xadrez.pdb
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\Xadrez.dll
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\refint\Xadrez.dll
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\Xadrez.pdb
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\Xadrez.genruntimeconfig.cache
+D:\GitHub\FichaRevisoes\Xadrez\obj\Debug\net7.0\ref\Xadrez.dll
