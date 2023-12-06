@@ -1,0 +1,14 @@
+D:\GitHub\FichaRevisoes\Espetaculos\bin\Debug\net7.0\Espetaculos.exe
+D:\GitHub\FichaRevisoes\Espetaculos\bin\Debug\net7.0\Espetaculos.deps.json
+D:\GitHub\FichaRevisoes\Espetaculos\bin\Debug\net7.0\Espetaculos.runtimeconfig.json
+D:\GitHub\FichaRevisoes\Espetaculos\bin\Debug\net7.0\Espetaculos.dll
+D:\GitHub\FichaRevisoes\Espetaculos\bin\Debug\net7.0\Espetaculos.pdb
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\Espetaculos.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\Espetaculos.AssemblyInfoInputs.cache
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\Espetaculos.AssemblyInfo.cs
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\Espetaculos.csproj.CoreCompileInputs.cache
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\Espetaculos.dll
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\refint\Espetaculos.dll
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\Espetaculos.pdb
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\Espetaculos.genruntimeconfig.cache
+D:\GitHub\FichaRevisoes\Espetaculos\obj\Debug\net7.0\ref\Espetaculos.dll

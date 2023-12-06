@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\FichaRevisoes\\FichaRevisoes\\ContasBancarias.csproj",
-      "projectName": "ContasBancarias",
-      "projectPath": "D:\\GitHub\\FichaRevisoes\\FichaRevisoes\\ContasBancarias.csproj",
+      "projectUniqueName": "D:\\GitHub\\FichaRevisoes\\Espetaculos\\Espetaculos.csproj",
+      "projectName": "Espetaculos",
+      "projectPath": "D:\\GitHub\\FichaRevisoes\\Espetaculos\\Espetaculos.csproj",
       "packagesPath": "C:\\Users\\rafac\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\FichaRevisoes\\FichaRevisoes\\obj\\",
+      "outputPath": "D:\\GitHub\\FichaRevisoes\\Espetaculos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rafac\\AppData\\Roaming\\NuGet\\NuGet.Config",
