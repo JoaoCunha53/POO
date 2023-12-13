@@ -7,10 +7,11 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using TrabalhoDePOO.@interface;
 
 namespace TrabalhoDePOO
 {
-    internal class Artigo 
+    internal class Artigo : IJobsArtigo
     {
         /// <summary>
         /// Atributos Class Artigo
@@ -19,7 +20,7 @@ namespace TrabalhoDePOO
         public Modelo modelo { get; set; }
         public int stock { get; set; }
         public Categoria categoria { get; set; }
-        public Garantia garantia { get; set; }
+        public Garantia garantia { get; set; } 
         public double precoUni { get; set; }
         /// <summary>
         /// Construtores Class Artigo

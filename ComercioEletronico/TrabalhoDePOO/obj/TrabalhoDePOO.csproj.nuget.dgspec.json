@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj": {}
+    "C:\\Users\\João Cunha\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj": {
+    "C:\\Users\\João Cunha\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
+        "projectUniqueName": "C:\\Users\\João Cunha\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
         "projectName": "TrabalhoDePOO",
-        "projectPath": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
-        "packagesPath": "C:\\Users\\rafac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafac\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\obj\\",
+        "projectPath": "C:\\Users\\João Cunha\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\TrabalhoDePOO.csproj",
+        "packagesPath": "C:\\Users\\João Cunha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\João Cunha\\Documents\\GitHub\\POO\\ComercioEletronico\\TrabalhoDePOO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rafac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\João Cunha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -32,3 +32,20 @@ C:\Users\mwpt0343\Documents\GitHub\POO1\ComercioEletronico\TrabalhoDePOO\obj\Deb
 C:\Users\mwpt0343\Documents\GitHub\POO1\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.pdb
 C:\Users\mwpt0343\Documents\GitHub\POO1\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.genruntimeconfig.cache
 C:\Users\mwpt0343\Documents\GitHub\POO1\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\ref\TrabalhoDePOO.dll
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\bin\Debug\net7.0\TrabalhoDePOO.exe
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\bin\Debug\net7.0\TrabalhoDePOO.deps.json
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\bin\Debug\net7.0\TrabalhoDePOO.runtimeconfig.json
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\bin\Debug\net7.0\TrabalhoDePOO.dll
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\bin\Debug\net7.0\TrabalhoDePOO.pdb
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.csproj.AssemblyReference.cache
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.AssemblyInfoInputs.cache
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.AssemblyInfo.cs
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.csproj.CoreCompileInputs.cache
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.csproj.CopyComplete
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.dll
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\refint\TrabalhoDePOO.dll
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.pdb
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\TrabalhoDePOO.genruntimeconfig.cache
+C:\Users\João Cunha\Documents\GitHub\POO\ComercioEletronico\TrabalhoDePOO\obj\Debug\net7.0\ref\TrabalhoDePOO.dll

@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 using System.Text.RegularExpressions;
+using TrabalhoDePOO.@internal;
 
 namespace TrabalhoDePOO
 {
-    internal class Marca
+    internal class Marca : IJobsMarca
     {
         /// <summary>
         /// Atributos Class Marca
