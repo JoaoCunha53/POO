@@ -6,10 +6,12 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TrabalhoDePOO.@internal;
+using System.Reflection;
 
 namespace TrabalhoDePOO
 {
-    internal class Cliente : Pessoa
+    internal class Cliente : Pessoa , IJobsCliente
     {
 
         /// <summary>
@@ -58,21 +60,35 @@ namespace TrabalhoDePOO
             Console.WriteLine("\nConta Criada com sucesso.");
             Console.WriteLine("\n");
         }
-        public void Editar(List<Pessoa> pessoas, int id)
+        public void ListarClientes(List<Pessoa> clientes)
         {
-            Console.WriteLine("\nEditar Perfil:");
-            int index = pessoas.FindIndex(pessoa => pessoa.idPessoa.Equals(id));
-            Console.WriteLine($"\n1 - Nome: {pessoas[index].nomeCompleto}" +
-                   $"\n2 - Data Nascimento: {pessoas[index].dataNascimento}" +
-                   $"\n3 - NºTelefone: {pessoas[index].nTelemovel}" +
-                   $"\n4 - Nif:{pessoas[index].nif}" +
-                   $"\n5 - Morada:{pessoas[index].morada} +" +
-                   $"\n0 - Sair");
-
-
+            foreach(Pessoa cliente in clientes)
+            {
+                if (cliente.funcao == 1)
+                {
+                    Console.WriteLine($"Id Cliente: {cliente.idPessoa}" +
+                       $"\nNome: {cliente.nomeCompleto}" +
+                       $"\nData Nascimento: {cliente.dataNascimento}" +
+                       $"\nNºTelefone: {cliente.nTelemovel}" +
+                       $"\nNif: {cliente.nif}" +
+                       $"\nMorada: {cliente.morada}");
+                }
+            }
+        }
+        public void Editar(Pessoa pessoas)
+        {
             bool inOut = true;
             while (inOut)
             {
+                Console.Clear();
+                Console.WriteLine("\nEditar Perfil:");
+                Console.WriteLine($"\n1 - Nome: {pessoas.nomeCompleto}" +
+                       $"\n2 - Data Nascimento: {pessoas.dataNascimento}" +
+                       $"\n3 - NºTelefone: {pessoas.nTelemovel}" +
+                       $"\n4 - Nif: {pessoas.nif}" +
+                       $"\n5 - Morada: {pessoas.morada}" +
+                       $"\n0 - Sair");
+
                 Console.Write("\nSelecione o campo para editar: ");
                 int opcao = int.Parse(Console.ReadLine());
                 switch (opcao)
@@ -82,23 +98,23 @@ namespace TrabalhoDePOO
                         break;
                     case 1:
                         Console.Write("\nNome: ");
-                        pessoas[index].nomeCompleto = Console.ReadLine();
+                        pessoas.nomeCompleto = Console.ReadLine();
                         break;
                     case 2:
                         Console.Write("\nData de Nascemento: ");
-                        pessoas[index].dataNascimento = DateOnly.Parse(Console.ReadLine());
+                        pessoas.dataNascimento = DateOnly.Parse(Console.ReadLine());
                         break;
                     case 3:
-                        Console.Write("\nId Categoria: ");
-                        pessoas[index].nTelemovel = int.Parse(Console.ReadLine());
+                        Console.Write("\nNºTelefone: ");
+                        pessoas.nTelemovel = int.Parse(Console.ReadLine());
                         break;
                     case 4:
                         Console.Write("\nMorada: ");
-                        pessoas[index].nif = int.Parse(Console.ReadLine());
+                        pessoas.nif = int.Parse(Console.ReadLine());
                         break;
                     case 5:
                         Console.Write("\nMorada: ");
-                        pessoas[index].morada = Console.ReadLine();
+                        pessoas.morada = Console.ReadLine();
                         break;
                     default:
                         Console.WriteLine("Valor selecionado é invalido.");
@@ -108,7 +124,6 @@ namespace TrabalhoDePOO
             }
             Console.WriteLine("\n");
         }
-
         public void Remover(List<Pessoa> clientes)
         {
             Console.WriteLine("\nEliminar conta Cliente :");

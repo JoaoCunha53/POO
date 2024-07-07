@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
+using TrabalhoDePOO.@internal;
 
 namespace TrabalhoDePOO
 {
-    internal class Garantia 
+    internal class Garantia : IJobsGarantia
     {
 
         /// <summary>

@@ -7,18 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrabalhoDePOO
+namespace TrabalhoDePOO.@interface
 {
-    internal interface IJobsArtigo<T>
+    internal interface IJobsArtigo
     {
 
-        public List<T> CarregarDados(string FilePath);
-        public int GuardarDados(string FilePath, List<T> artigos);
-        public int GuardarDados(string FilePath, List<Garantia> Garantia);
+        public List<Artigo> CarregarDados(string FilePath);
+        public int GuardarDados(string FilePath, List<Artigo> artigos);
         public void Adicionar(List<Artigo> artigos, List<Modelo> modelos, List<Categoria> categorias, List<Garantia> garantias);
         public void Listar(List<Artigo> artigos);
         public void Editar(List<Artigo> artigos, List<Modelo> modelos, List<Categoria> categorias, List<Garantia> garantias);
-        public void Remover(List<T> artigos);
+        public void Remover(List<Artigo> artigos);
 
     }
 }

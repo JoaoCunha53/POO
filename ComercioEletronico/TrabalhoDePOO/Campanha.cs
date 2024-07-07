@@ -6,10 +6,11 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TrabalhoDePOO.@internal;
 
 namespace TrabalhoDePOO
 {
-    internal class Campanha
+    internal class Campanha : IJobsCampanha
     {
         /// <summary>
         /// Atributos Class Campanha

@@ -1,2 +1,4 @@
 idPessoa,nomeCompleto,dataNascimento,nif,nTelemovel,email,chave,morada,funcao
-1,,01/01/0001,0,0,j,123,,1
+1,Joao Cunha,12/27/2001,252484666,936888777,admin,123,Vila Nova De Famalicao,2
+2,Rui Costa,01/01/0001,252484765,918886784,Joao,123,Nine,1
+3,Rui Costa,01/01/0001,254484567,0,Rui,123,Nine,1
