@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Chinook", "Chinook\Chinook.dtproj", "{6933D0D8-FA21-4828-B4F8-61D9EDB58253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6933D0D8-FA21-4828-B4F8-61D9EDB58253}.Development|Default.ActiveCfg = Development
+		{6933D0D8-FA21-4828-B4F8-61D9EDB58253}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {526886BC-E3F8-4531-B80E-84B112B222A9}
+	EndGlobalSection
+EndGlobal

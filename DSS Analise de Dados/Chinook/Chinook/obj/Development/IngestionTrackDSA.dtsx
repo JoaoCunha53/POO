@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/19/2024 7:10:30 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-P2N225R"
+  DTS:CreatorName="DESKTOP-P2N225R\rafac"
+  DTS:DTSID="{EBE3EA08-AE9F-403F-BDE1-DD1CDBC2E1EB}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5397.1"
+  DTS:LocaleID="2070"
+  DTS:ObjectName="IngestionInvoiceLineDSA"
+  DTS:PackageType="5"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{049F6126-3DBF-4763-A2C4-3ECB7F80D764}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\IngestionAlbumDSA"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{C9E1FF9F-0F56-443D-BF5E-05540C7BCB59}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="IngestionAlbumDSA"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>IngestionAlbumDSA.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\IngestionArtistaDSA"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{7d166369-9abb-4d07-97dd-e47d71f32a2c}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="IngestionArtistaDSA"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>IngestionArtistaDSA.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\IngestionInvoiceDSA"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{04134a44-9b6b-405a-b61b-90700ee09553}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="IngestionInvoiceDSA"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>IngestionInvoiceDSA.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\IngestionInvoiceLineDSA"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{9e2977bc-b5fd-47e1-a0f4-16fa2422995a}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="IngestionInvoiceLineDSA"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>IngestionInvoiceLineDSA.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\IngestionTrackDSA"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{2ebde5bd-429d-414a-b371-5302ceceeb3e}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="IngestionTrackDSA"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>IngestionTrackDSA.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restrição]"
+      DTS:CreationName=""
+      DTS:DTSID="{C62B7A6F-8DF8-42C6-A4E9-BB5C08C6AD51}"
+      DTS:From="Package\IngestionAlbumDSA"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restrição"
+      DTS:To="Package\IngestionArtistaDSA" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restrição 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{A1032DD8-234A-41C9-B5EF-7766AB220E46}"
+      DTS:From="Package\IngestionArtistaDSA"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restrição 1"
+      DTS:To="Package\IngestionInvoiceDSA" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restrição 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{62EF039E-3A45-468C-913F-D4C094016680}"
+      DTS:From="Package\IngestionInvoiceDSA"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restrição 2"
+      DTS:To="Package\IngestionInvoiceLineDSA" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restrição 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{E50BEB41-8768-4B30-8C9A-956A0D32AC9F}"
+      DTS:From="Package\IngestionInvoiceLineDSA"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restrição 3"
+      DTS:To="Package\IngestionTrackDSA" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta seção CDATA contém as informações de layout do pacote. A seção inclui informações como coordenadas (x,y), largura e altura.-->
+<!--Se você editar manualmente esta seção e cometer algum erro, poderá excluí-la. -->
+<!--O pacote ainda poderá ser carregado normalmente, mas as informações de layout anteriores serão perdidas e o designer reorganizará automaticamente os elementos na superfície de design.-->
+<Objects
+  Version="8">
+  <!--Cada nó abaixo conterá propriedades que não afetam o comportamento em tempo de execução.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\IngestionAlbumDSA"
+          TopLeft="144.166658789748,54.5999996203179" />
+        <NodeLayout
+          Size="184.8,41.6"
+          Id="Package\IngestionArtistaDSA"
+          TopLeft="166.666657560402,150.133332995838" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restrição]"
+          TopLeft="229.766658789748,96.199999620318">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="29.2999987706542,53.9333333755202"
+              Start="0,0"
+              End="29.2999987706542,46.4333333755202">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.9666666877601" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.9666666877601"
+                    Point2="0,26.9666666877601"
+                    Point3="4,26.9666666877601" />
+                  <mssgle:LineSegment
+                    End="25.2999987706542,26.9666666877601" />
+                  <mssgle:CubicBezierSegment
+                    Point1="25.2999987706542,26.9666666877601"
+                    Point2="29.2999987706542,26.9666666877601"
+                    Point3="29.2999987706542,30.9666666877601" />
+                  <mssgle:LineSegment
+                    End="29.2999987706542,46.4333333755202" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="175.2,41.6"
+          Id="Package\IngestionInvoiceDSA"
+          TopLeft="206.666655374898,233.999998372793" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restrição 1]"
+          TopLeft="259.066657560402,191.733332995838">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="35.1999978144966,42.2666653769551"
+              Start="0,0"
+              End="35.1999978144966,34.7666653769551">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.1333326884776" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.1333326884776"
+                    Point2="0,21.1333326884776"
+                    Point3="4,21.1333326884776" />
+                  <mssgle:LineSegment
+                    End="31.1999978144966,21.1333326884776" />
+                  <mssgle:CubicBezierSegment
+                    Point1="31.1999978144966,21.1333326884776"
+                    Point2="35.1999978144966,21.1333326884776"
+                    Point3="35.1999978144966,25.1333326884776" />
+                  <mssgle:LineSegment
+                    End="35.1999978144966,34.7666653769551" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="194.4,41.6"
+          Id="Package\IngestionInvoiceLineDSA"
+          TopLeft="311.428554412865,299.076189102966" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restrição 2]"
+          TopLeft="294.266655374898,275.599998372793">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="114.361899037967,23.4761907301725"
+              Start="0,0"
+              End="114.361899037967,15.9761907301725">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,7.73809536508625" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,7.73809536508625"
+                    Point2="0,11.7380953650863"
+                    Point3="4,11.7380953650863" />
+                  <mssgle:LineSegment
+                    End="110.361899037967,11.7380953650863" />
+                  <mssgle:CubicBezierSegment
+                    Point1="110.361899037967,11.7380953650863"
+                    Point2="114.361899037967,11.7380953650863"
+                    Point3="114.361899037967,15.7380953650863" />
+                  <mssgle:LineSegment
+                    End="114.361899037967,15.9761907301725" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="168,41.6"
+          Id="Package\IngestionTrackDSA"
+          TopLeft="377.976169824483,380.371427339401" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restrição 3]"
+          TopLeft="408.628554412865,340.676189102966">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="53.3476154116176,39.695238236435"
+              Start="0,0"
+              End="53.3476154116176,32.195238236435">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.8476191182175" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.8476191182175"
+                    Point2="0,19.8476191182175"
+                    Point3="4,19.8476191182175" />
+                  <mssgle:LineSegment
+                    End="49.3476154116176,19.8476191182175" />
+                  <mssgle:CubicBezierSegment
+                    Point1="49.3476154116176,19.8476191182175"
+                    Point2="53.3476154116176,19.8476191182175"
+                    Point3="53.3476154116176,23.8476191182175" />
+                  <mssgle:LineSegment
+                    End="53.3476154116176,32.195238236435" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
